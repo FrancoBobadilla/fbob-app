@@ -240,7 +240,7 @@ module.exports = {
   *                                                                          *
   ***************************************************************************/
   sockets: {
-
+    onlyAllowOrigins: ['https://fbob-app.herokuapp.com/', 'http://mydeployedapp.com'],
     /***************************************************************************
     *                                                                          *
     * Uncomment the `onlyAllowOrigins` whitelist below to configure which      *
@@ -279,7 +279,6 @@ module.exports = {
     // sails_sockets__url=redis://admin:myc00lpAssw2D@bigsquid.redistogo.com:9562/
     // ```
     //--------------------------------------------------------------------------
-
   },
 
 
