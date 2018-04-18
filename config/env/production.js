@@ -240,7 +240,9 @@ module.exports = {
   *                                                                          *
   ***************************************************************************/
   sockets: {
-    onlyAllowOrigins: ['https://fbob-app.herokuapp.com/', 'http://mydeployedapp.com'],
+    onlyAllowOrigins: [
+      'https://fbob-app.herokuapp.com'
+    ],
     /***************************************************************************
     *                                                                          *
     * Uncomment the `onlyAllowOrigins` whitelist below to configure which      *
